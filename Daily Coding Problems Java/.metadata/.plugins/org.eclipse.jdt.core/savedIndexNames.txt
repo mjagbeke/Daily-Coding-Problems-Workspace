@@ -1,2 +1,3 @@
-INDEX VERSION 1.131+/Users/julian_home/Dropbox/Workspaces/Daily Coding Problems/Daily Coding Problems Java/.metadata/.plugins/org.eclipse.jdt.core
+INDEX VERSION 1.131+/Users/julian_home/Dropbox/Workspaces/Daily-Coding-Problems-Workspace/Daily Coding Problems Java/.metadata/.plugins/org.eclipse.jdt.core
+515442778.index
 4154239352.index
