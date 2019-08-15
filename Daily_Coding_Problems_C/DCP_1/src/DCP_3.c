@@ -1,17 +1,27 @@
 /*
  ============================================================================
- Name        : DCP_1.c
+ Name        : DCP_3.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Description : Given the root to a binary tree, implement
+ serialize(root), which serializes the tree into a string,
+ and deserialize(s), which deserializes the string back into the tree.
  ============================================================================
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 
+
+char* serialize(){
+	char * string ;
+	return string;
+}
+
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+serialize();
+deserialize();
+
 	return EXIT_SUCCESS;
 }
