@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : DCP_3.c
- Author      : 
+ Author      :
  Version     :
  Copyright   : Your copyright notice
  Description : Given the root to a binary tree, implement
@@ -13,8 +13,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//create root struct
+
+//create tree struct
 
 char* serialize(){
+	char * string ;
+	return string;
+}
+
+char* deserialize(){
 	char * string ;
 	return string;
 }
