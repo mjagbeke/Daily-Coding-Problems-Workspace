@@ -6,13 +6,13 @@
  */
 
 
- struct Node {
+ struct Node{
      int val;
      struct Node *left;
      struct Node *right;
   }node;
 
-  void Node(int val);
+  void createNode(int val);
 
 
 

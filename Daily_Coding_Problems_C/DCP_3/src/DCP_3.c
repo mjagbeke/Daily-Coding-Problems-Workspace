@@ -12,14 +12,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "tree.h"
 
 //create root struct
 
 //create tree struct
 
-char* serialize(){
-	char * string ;
-	return string;
+struct Tree* serialize(){
+	struct Tree* tree ;
+	return tree;
 }
 
 char* deserialize(){
@@ -28,7 +29,10 @@ char* deserialize(){
 }
 
 int main(void) {
+	//create/read in string for serialization
 serialize();
+
+//create tree for deserialization
 deserialize();
 
 	return EXIT_SUCCESS;

@@ -9,7 +9,7 @@
 #include "Node.h"
 #include <stdlib.h>
 
-void Node(int val){
+void createNode(int val){
 	node.val = val;
 }
 
