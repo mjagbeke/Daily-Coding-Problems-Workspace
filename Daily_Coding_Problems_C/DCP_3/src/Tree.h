@@ -4,10 +4,10 @@
  *  Created on: Aug 14, 2019
  *      Author: julian_home
  */
+#include "Node.h"
 
-#ifndef TREE_H_
-#define TREE_H_
+struct Tree{
+	struct Node* root;
+}tree;
 
-
-
-#endif /* TREE_H_ */
+void addNode(struct Node* newNode, struct Node* currentNode);
