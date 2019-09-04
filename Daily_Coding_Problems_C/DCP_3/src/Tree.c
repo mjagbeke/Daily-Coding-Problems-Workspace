@@ -19,10 +19,7 @@ void addNode(struct Node* newNode, struct Node* currentNode){
 	else{
 		//less than current
 		if(newNode->val < currentNode->val){
-//			//check if next node is null
-//			if(currentNode->left ==NULL){
-//				//create new new node
-//			}
+
 			addNode(newNode, currentNode->left);
 		}
 

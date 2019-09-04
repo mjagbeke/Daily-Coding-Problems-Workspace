@@ -12,14 +12,28 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "tree.h"
+#include "Tree.h"
 
 //create root struct
 
 //create tree struct
 
-struct Tree* serialize(){
-	struct Tree* tree ;
+struct Tree serialize(char* input){
+	int newValue, currentValue;
+	struct Tree tree ;
+
+	struct Node* newNode, *currentNode;
+
+
+	//loop through input and add to the tree
+
+	//create nodes from values in input
+
+	//check if first entry
+
+	//add node to tree
+	addNode(tree, newNode, currentNode);
+
 	return tree;
 }
 
@@ -29,11 +43,15 @@ char* deserialize(){
 }
 
 int main(void) {
-	//create/read in string for serialization
-serialize();
+	//call function to create and int pointer from argV (create library from DCP 1
 
-//create tree for deserialization
-deserialize();
+	//call/create function to calculate the number of integers in a comma separated string
+	parseInput();
+	//create/read in string for serialization
+	serialize("1,2,3,6,5,4");
+
+	//create tree for deserialization
+	printf("%s", deserialize(serialize("1,2,3,6,5,4")));
 
 	return EXIT_SUCCESS;
 }

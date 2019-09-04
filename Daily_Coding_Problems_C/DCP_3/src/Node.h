@@ -12,7 +12,7 @@
      struct Node *right;
   }node;
 
-  void createNode(int val);
+  struct Node createNode(int val);
 
 
 

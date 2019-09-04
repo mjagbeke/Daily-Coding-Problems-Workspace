@@ -9,8 +9,9 @@
 #include "Node.h"
 #include <stdlib.h>
 
-void createNode(int val){
+struct Node createNode(int val){
 	node.val = val;
+	return node;
 }
 
 
