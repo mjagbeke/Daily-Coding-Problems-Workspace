@@ -1,4 +1,4 @@
-package dcp2;
+package dcp_2;
 
 import java.util.Arrays;
 
@@ -30,7 +30,7 @@ public class DCP_2 {
 
 	private static String divisionSolition(String list) {
 
-		//add null check    
+		//add null check
 
 		//get max value
 		int max = calculateProduct(list);
