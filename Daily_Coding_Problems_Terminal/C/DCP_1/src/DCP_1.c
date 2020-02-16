@@ -13,6 +13,7 @@ return whether any two numbers from the list add up to k
 #include <stdbool.h>
 #include <string.h>
 #include <time.h>
+#include "customStringUtil.h"
 
 static int INPUT_OFFSET = 2;
 
@@ -46,8 +47,8 @@ int compareInts (const void *a, const void *b){
 int * parseArgV(int arraySize, char *argv[]){
 	int *list = malloc((arraySize)*sizeof(int));
 
-	for (int i = INPUT_OFFSET; i < arraySize; i++){
-		list[i - INPUT_OFFSET] = atoi(argv[i]);
+	for (int i = 0; i < arraySize; i++){
+		list[i]= atoi(argv[i]);
 	}
 
 	return list;
@@ -204,7 +205,8 @@ int main(int argc, char *argv[]){
 	/* Define Variable from problem description*/
 	int k = atoi(argv[1]),
 	listSize = argc - INPUT_OFFSET,
-	*listOfNumber = parseArgV(argc, argv);
+	*listOfNumber = stringToIntPointer(listSize, &argv[2]);
+
 	clock_t start, end;
     double cpu_time_used;
 	bool solution;
